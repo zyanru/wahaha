@@ -3,7 +3,17 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-03-17T15:43:59.630259808+08:00"
+    created: "2020-03-23T17:04:28.800053967+08:00"
+    description: A Helm chart for Kubernetes
+    digest: c9df34d0760e939bdef9ece7aee8866ca8755ec0fb26adad9473afc062b553f9
+    name: mychart
+    type: application
+    urls:
+    - https://zyanru.github.io/wahaha/mychart/mychart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-03-23T17:04:28.798563324+08:00"
     description: A Helm chart for Kubernetes
     digest: e8a8a6f988ad27a9a24ec6b037266f6e103427e1539286a1cbcac557ba88971e
     name: mychart
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://zyanru.github.io/wahaha/mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-17T15:43:59.628935428+08:00"
+generated: "2020-03-23T17:04:28.781909216+08:00"
