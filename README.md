@@ -24,4 +24,8 @@ helm repo index . --merge index.yaml --url https://zyanru.github.io/wahaha
 
 git commit -a -m "change index.yaml"
 git push origin
+
+helm repo add helm-example https://zyanru.github.io/wahaha
+helm search repo mychart
+helm install nginx-demo helm-example/mychart --set service.type=NodePort --set service.port=80
 ```
